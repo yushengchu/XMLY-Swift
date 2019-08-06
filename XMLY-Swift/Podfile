@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'XMLY' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #tabbar样式
+  pod 'ESTabBarController-swift', '~> 2.6.2'
+  #布局
+  pod 'SnapKit'
+  pod 'Kingfisher'
+
+end
